@@ -1,0 +1,8 @@
+.settings
+.swap
+.idea
+.project
+*.iml
+frameworks/
+runtime/
+src/cocos/

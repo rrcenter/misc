@@ -1,0 +1,25 @@
+return {
+	_fold = false,
+	_id = "shaderTest1",
+	_type = "ShaderTest",
+	height = "$fill",
+	width = "$fill",
+	_children = {	   {
+	      _id = "label1",
+	      _type = "cc.Label",
+	      fontSize = 18,
+	      height = 0,
+	      scaleX = "$minScale",
+	      scaleY = "$minScale",
+	      string = "None",
+	      width = 0,
+	      x = 60,
+	      y = 680,
+	      anchor = {
+	         x = 0,
+	         y = 0.5},
+	      fontFile = {
+	         en = "Arial"},
+	      scaleXY = {
+	         x = "$scaleX",
+	         y = "$scaleY"}}}}
