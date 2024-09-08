@@ -2,6 +2,8 @@
 
 # https://github.com/rrcenter/PyTexturePacker#usage
 # python3 -m pip install fire
+# python3 -m pip install PyTexturePacker
+# or 
 # python3 -m pip install git+https://github.com/rrcenter/PyTexturePacker.git@master
 #
 from PyTexturePacker import Packer
@@ -13,7 +15,7 @@ def TexturePacker(folder, filename):
     # "%d" in output file name "test_case%d" is a placeholder, which is a multipack index, starting with 0.
     # packer.pack("test_case/", "test_case%d")
 
-    packer = Packer.create(max_width=2048, max_height=2048)
+    packer = Packer.create(max_width=2048, max_height=2048, bg_color=0x00000000, trim_mode=True, force_square=False)
     packer.pack(folder, filename)
 
 
